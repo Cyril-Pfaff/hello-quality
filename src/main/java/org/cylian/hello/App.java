@@ -8,11 +8,13 @@ public class App
 {
 
 	private int secure;
+	private int secure2;
 	
 	/**
 	 * Une variable
 	 */
 	public static String ip = "127.0.0.1";
+	public static String local = "10.0.0.1";
 	
 	/**
 	 * Le point d'entrée
@@ -30,6 +32,6 @@ public class App
 			out = out + fields[i];
 		}
 		
-		System.out.println( "Field said: " + out + " from "+ip);
+System.out.println( "Field said: " + out + " from "+ip);
     }
 }
