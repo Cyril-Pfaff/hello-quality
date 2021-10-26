@@ -46,21 +46,4 @@ public class AppTest
     {
         assertTrue( false );
     }        
-    /**
-     * Rigorous Test :-)
-     */
-    @Test
-    public void shouldAnswerWithFalse4()
-    {
-        assertTrue( false );
-    }    
-    /**
-     * Rigorous Test :-)
-     */
-    @Test
-    public void shouldAnswerWithFalse5()
-    {
-        assertTrue( false );
-    }    
-    
 }
