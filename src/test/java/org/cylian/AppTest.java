@@ -34,10 +34,10 @@ public class AppTest
         assertTrue( false );
     }    
     @Test
-    public void shouldAnswerWithTrue2()
+    public void shouldAnswerWithFalse2()
     {
-        assertTrue( true );
-    }
+        assertTrue( false );
+    }    
     /**
      * Rigorous Test :-)
      */
