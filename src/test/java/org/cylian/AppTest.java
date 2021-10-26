@@ -33,11 +33,24 @@ public class AppTest
     {
         assertTrue( false );
     }    
+    @Test
+    public void shouldAnswerWithTrue2()
+    {
+        assertTrue( true );
+    }
     /**
      * Rigorous Test :-)
      */
     @Test
-    public void shouldAnswerWithFalse2()
+    public void shouldAnswerWithFalse3()
+    {
+        assertTrue( false );
+    }        
+    /**
+     * Rigorous Test :-)
+     */
+    @Test
+    public void shouldAnswerWithFalse4()
     {
         assertTrue( false );
     }    
@@ -45,7 +58,7 @@ public class AppTest
      * Rigorous Test :-)
      */
     @Test
-    public void shouldAnswerWithFalse3()
+    public void shouldAnswerWithFalse5()
     {
         assertTrue( false );
     }    
