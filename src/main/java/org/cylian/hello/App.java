@@ -7,8 +7,9 @@ package org.cylian.hello;
 public class App 
 {
 
-	private int secure;
+	private int secure1;
 	private int secure2;
+ private int secure2;
 	
 	/**
 	 * Une variable
@@ -23,6 +24,7 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
+System.out.println( "Hello World!" );
 		
 		String[] fields = { "a","z","e","r","t","y"};
 		String out = "";
