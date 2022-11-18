@@ -8,7 +8,7 @@ public class App
 {
 
 	private int secure1;
-	private int secure2;
+	//private int secure2;
  private int secure3;
 	
 	/**
