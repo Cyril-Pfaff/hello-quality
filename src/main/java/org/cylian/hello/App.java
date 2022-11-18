@@ -16,8 +16,9 @@ public class App
 	 */
 	public static String ip = "127.0.0.1";
 	public static String local = "10.0.0.1";
-	String enum = "foo";
-
+	// String enum = "foo";
+	
+	Object buz;
 	private static void buz(String x) {}
 
 	/**
