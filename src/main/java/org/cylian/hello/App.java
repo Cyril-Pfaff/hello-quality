@@ -17,6 +17,8 @@ public class App
 	public static String ip = "127.0.0.1";
 	public static String local = "10.0.0.1";
 	
+	private void buz(String x) {}
+
 	/**
 	 * Le point d'entrée
 	 * @param args Les arguments
@@ -29,6 +31,15 @@ System.out.println( "Hello World!" );
 		String[] fields = { "a","z","e","r","t","y", };
 		String out = "";
 		
+		buz("Howdy");
+		buz("Howdy");
+		buz("Howdy");
+		buz("Howdy");
+		buz("Howdy");
+		buz("Howdy");
+		buz("Howdy");
+		buz("Howdy");
+	  
 		try {
 
 			for(int i=0; i<fields.length; i++)
