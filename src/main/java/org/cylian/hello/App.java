@@ -35,7 +35,7 @@ System.out.println( "Hello World!" );
 			{
 				out = out + fields[i];
 			}
-					} catch (Exception e) {
+					} catch (NullPointerException e) {
             e.printStackTrace();
 			e = new NullPointerException(); // not recommended
         }
