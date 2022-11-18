@@ -29,11 +29,16 @@ System.out.println( "Hello World!" );
 		String[] fields = { "a","z","e","r","t","y"};
 		String out = "";
 		
-		for(int i=0; i<fields.length; i++)
-		{
-			out = out + fields[i];
-		}
-		
+		try {
+
+			for(int i=0; i<fields.length; i++)
+			{
+				out = out + fields[i];
+			}
+					} catch (Exception e) {
+            e.printStackTrace();
+        }
+
 System.out.println( "Field said: " + out + " from "+ip);
     }
 }
