@@ -26,7 +26,7 @@ public class App
         System.out.println( "Hello World!" );
 System.out.println( "Hello World!" );
 		
-		String[] fields = { "a","z","e","r","t","y"};
+		String[] fields = { "a","z","e","r","t","y", };
 		String out = "";
 		
 		try {
@@ -37,6 +37,7 @@ System.out.println( "Hello World!" );
 			}
 					} catch (Exception e) {
             e.printStackTrace();
+			e = new NullPointerException(); // not recommended
         }
 
 System.out.println( "Field said: " + out + " from "+ip);
