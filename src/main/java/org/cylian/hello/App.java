@@ -21,6 +21,11 @@ public class App
 	Object buz;
 	private static void buz(String x) {}
 
+	private static void bar(String name) {
+	name = name.trim();
+    System.out.println("Hello " + name);
+	}
+	
 	/**
 	 * Le point d'entrée
 	 * @param args Les arguments
