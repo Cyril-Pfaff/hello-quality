@@ -17,7 +17,7 @@ public class App
 	public static String ip = "127.0.0.1";
 	public static String local = "10.0.0.1";
 	
-	private void buz(String x) {}
+	private static void buz(String x) {}
 
 	/**
 	 * Le point d'entrée
